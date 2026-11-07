@@ -1,0 +1,1 @@
+Construct the strongest defensible upside thesis. Support three distinct claims using growth, gross margin and net revenue retention. Discuss plausible catalysts as conditional hypotheses. Acknowledge negative free cash flow, valuation and concentration as material constraints. Identify what could disconfirm the thesis and what evidence is missing.

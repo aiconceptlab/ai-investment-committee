@@ -1,0 +1,15 @@
+I built an AI investment committee. The Bull made the growth case. The Bear challenged the valuation.
+
+LAB // 001: Bull, Bear and Risk each analyzed the same fictional company independently. Then a Chair read their actual responses, surfaced two disagreements and returned “Further Research.”
+
+The model didn't calculate the valuation. Python did: €439M, €955M and €1,270M across three hypothetical scenarios. Every numerical value shown comes from the synthetic inputs or a reproducible calculation.
+
+This was a real local Ollama run using Gemma 4, Python and Streamlit. The free LAB includes the code, prompts, recorded audit and a replay you can open without an API key.
+
+Synthetic case. Educational research only. No investment advice.
+
+Comment “CODE” to get the link. ↓
+
+@labaiconcept
+#AIConceptLab #BuildInPublic #Ollama #Streamlit #AIResearch #OpenSource
+

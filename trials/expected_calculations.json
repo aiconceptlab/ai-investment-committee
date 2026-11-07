@@ -1,0 +1,20 @@
+{
+  "reference_ev_eur_m": "900.0",
+  "net_cash_eur_m": "55",
+  "reference_equity_eur_m": "955.0",
+  "customer_revenue_exposure_eur_m": "37.2",
+  "scenarios": {
+    "bear": {
+      "equity_eur_m": "439",
+      "change_pct": "-54.0"
+    },
+    "base": {
+      "equity_eur_m": "955",
+      "change_pct": "0.0"
+    },
+    "bull": {
+      "equity_eur_m": "1270.0",
+      "change_pct": "33.0"
+    }
+  }
+}

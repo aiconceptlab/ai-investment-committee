@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "mode": "live",
+  "provider": "ollama",
+  "deployment": "gemma4:e4b",
+  "run_id": "7ea79f54-1167-455b-acde-7ef333f9c4f6",
+  "started_at": "2026-11-07T19:33:22.877535+00:00",
+  "case_id": "auroragrid-2026-synthetic-v1",
+  "snapshot_sha256": "dcb9178012e38603e857cce8fadf7b81a952fc778f5b71507a78a5e0f815726c",
+  "snapshot": {
+    "case": {
+      "annual_fcf_eur_m": "-12",
+      "case_id": "auroragrid-2026-synthetic-v1",
+      "cash_eur_m": "80",
+      "company_name": "AuroraGrid AI",
+      "currency": "EUR",
+      "debt_eur_m": "25",
+      "ev_sales_multiple": "7.5",
+      "gross_margin_pct": "72",
+      "largest_customer_share_pct": "31",
+      "net_revenue_retention_pct": "118",
+      "revenue_eur_m": "120",
+      "revenue_growth_pct": "35",
+      "scenario_assumptions": {
+        "base": {
+          "multiple": "6",
+          "revenue_eur_m": "150"
+        },
+        "bear": {
+          "multiple": "4",
+          "revenue_eur_m": "96"
+        },
+        "bull": {
+          "multiple": "7.5",
+          "revenue_eur_m": "162"
+        }
+      },
+      "synthetic": true,
+      "unit": "millions"
+    },
+    "evidence_ledger": {
+      "annual_fcf_eur_m": {
+        "source": "synthetic input",
+        "value": "-12"
+      },
+      "cash_eur_m": {
+        "source": "synthetic input",
+        "value": "80"
+      },
+      "customer_revenue_exposure_eur_m": {
+        "source": "deterministic calculation",
+        "value": "37.2"
+      },
+      "debt_eur_m": {
+        "source": "synthetic input",
+        "value": "25"
+      },
+      "ev_sales_multiple": {
+        "source": "synthetic input",
+        "value": "7.5"
+      },
+      "gross_margin_pct": {
+        "source": "synthetic input",
+        "value": "72"
+      },
+      "largest_customer_share_pct": {
+        "source": "synthetic input",
+        "value": "31"
+      },
+      "net_cash_eur_m": {
+        "source": "deterministic calculation",
+        "value": "55"
+      },
+      "net_revenue_retention_pct": {
+        "source": "synthetic input",
+        "value": "118"
+      },
+      "reference_equity_eur_m": {
+        "source": "deterministic calculation",
+        "value": "955.0"
+      },
+      "reference_ev_eur_m": {
+        "source": "deterministic calculation",
+        "value": "900.0"
+      },
+      "revenue_eur_m": {
+        "source": "synthetic input",
+        "value": "120"
+      },
+      "revenue_growth_pct": {
+        "source": "synthetic input",
+        "value": "35"
+      },
+      "scenario_base.change_pct": {
+        "source": "deterministic calculation",
+        "value": "0.0"
+      },
+      "scenario_base.equity_eur_m": {
+        "source": "deterministic calculation",
+        "value": "955"
+      },
+      "scenario_base.ev_eur_m": {
+        "source": "deterministic calculation",
+        "value": "900"
+      },
+      "scenario_base.multiple": {
+        "source": "synthetic assumption",
+        "value": "6"
+      },
+      "scenario_base.revenue_eur_m": {
+        "source": "synthetic assumption",
+        "value": "150"
+      },
+      "scenario_bear.change_pct": {
+        "source": "deterministic calculation",
+        "value": "-54.0"
+      },
+      "scenario_bear.equity_eur_m": {
+        "source": "deterministic calculation",
+        "value": "439"
+      },
+      "scenario_bear.ev_eur_m": {
+        "source": "deterministic calculation",
+        "value": "384"
+      },
+      "scenario_bear.multiple": {
+        "source": "synthetic assumption",
+        "value": "4"
+      },
+      "scenario_bear.revenue_eur_m": {
+        "source": "synthetic assumption",
+        "value": "96"
+      },
+      "scenario_bull.change_pct": {
+        "source": "deterministic calculation",
+        "value": "33.0"
+      },
+      "scenario_bull.equity_eur_m": {
+        "source": "deterministic calculation",
+        "value": "1270.0"
+      },
+      "scenario_bull.ev_eur_m": {
+        "source": "deterministic calculation",
+        "value": "1215.0"
+      },
+      "scenario_bull.multiple": {
+        "source": "synthetic assumption",
+        "value": "7.5"
+      },
+      "scenario_bull.revenue_eur_m": {
+        "source": "synthetic assumption",
+        "value": "162"
+      }
+    },
+    "metrics": {
+      "customer_revenue_exposure_eur_m": "37.2",
+      "net_cash_eur_m": "55",
+      "reference_equity_eur_m": "955.0",
+      "reference_ev_eur_m": "900.0",
+      "scenarios": {
+        "base": {
+          "change_pct": "0.0",
+          "equity_eur_m": "955",
+          "ev_eur_m": "900",
+          "multiple": "6",
+          "revenue_eur_m": "150"
+        },
+        "bear": {
+          "change_pct": "-54.0",
+          "equity_eur_m": "439",
+          "ev_eur_m": "384",
+          "multiple": "4",
+          "revenue_eur_m": "96"
+        },
+        "bull": {
+          "change_pct": "33.0",
+          "equity_eur_m": "1270.0",
+          "ev_eur_m": "1215.0",
+          "multiple": "7.5",
+          "revenue_eur_m": "162"
+        }
+      }
+    }
+  },
+  "roles": {
+    "bull": {
+      "role": "bull",
+      "status": "complete",
+      "started_at": "2026-11-07T19:33:22.881536+00:00",
+      "snapshot_sha256": "dcb9178012e38603e857cce8fadf7b81a952fc778f5b71507a78a5e0f815726c",
+      "prompt_sha256": "1fb8b2b97df37f31953dad9a2415c37b9119a5cf38e406833e92ee936a92b171",
+      "model_requested": "gemma4:e4b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T19:33:22.881536+00:00",
+          "raw_response": "{\"role\": \"bull\", \"thesis\": \"AuroraGrid AI's strong recurring revenue profile and high gross margins suggest significant untapped growth potential, justifying a premium valuation multiple.\", \"claims\": [{\"statement\": \"The high net revenue retention indicates strong product stickiness and customer satisfaction, underpinning continued revenue growth.\", \"evidence_field_ids\": [\"net_revenue_retention_pct\"], \"assumptions\": [\"The current net revenue retention rate will persist across various market cycles.\", \"Customer satisfaction remains high enough to support the observed retention rate.\"], \"limitations\": [\"This metric does not account for potential customer churn due to competitive pressures.\", \"It assumes the revenue base is stable enough to support high retention figures.\"]}, {\"statement\": \"The robust gross margin suggests pricing power and operational efficiency, allowing for reinvestment into growth initiatives.\", \"evidence_field_ids\": [\"gross_margin_pct\"], \"assumptions\": [\"The company can maintain its current cost structure as revenue scales.\", \"Input costs will not rise disproportionately to revenue growth.\"], \"limitations\": [\"This margin is historical and may not reflect costs associated with accelerated growth.\", \"It does not account for potential margin compression from increased competition.\"]}, {\"statement\": \"The high revenue growth rate points to successful market penetration and increasing demand for the company's solutions.\", \"evidence_field_ids\": [\"revenue_growth_pct\"], \"assumptions\": [\"The current growth trajectory can be sustained through the near term.\", \"Market demand for the company's offerings will continue to expand.\"], \"limitations\": [\"Rapid growth can strain operational capacity and lead to unforeseen costs.\", \"The growth rate might decelerate as the company matures in its addressable market.\"]}], \"key_risks_or_catalysts\": [\"A catalyst could be the successful expansion into new, high-growth vertical markets.\", \"A key risk is the concentration of revenue with a single large customer.\", \"The negative annual free cash flow requires careful monitoring against growth expectations.\"], \"open_questions\": [\"What is the expected trajectory of the largest customer's spending?\", \"How will the company manage its negative free cash flow while funding aggressive growth?\"], \"disconfirming_tests\": [\"A significant decline in net revenue retention would signal deteriorating customer relationships.\", \"A sharp drop in the gross margin percentage would indicate pricing pressure or cost inflation.\", \"Failure to meet the projected revenue growth in the next reporting period would challenge the growth thesis.\"]}",
+          "model_returned": "gemma4:e4b",
+          "token_usage": {
+            "prompt_eval_count": 1681,
+            "eval_count": 500
+          },
+          "finish_reason": "stop",
+          "elapsed_seconds": 26.161,
+          "finished_at": "2026-11-07T19:33:49.042425+00:00"
+        }
+      ],
+      "output": {
+        "role": "bull",
+        "thesis": "AuroraGrid AI's strong recurring revenue profile and high gross margins suggest significant untapped growth potential, justifying a premium valuation multiple.",
+        "claims": [
+          {
+            "statement": "The high net revenue retention indicates strong product stickiness and customer satisfaction, underpinning continued revenue growth.",
+            "evidence_field_ids": [
+              "net_revenue_retention_pct"
+            ],
+            "assumptions": [
+              "The current net revenue retention rate will persist across various market cycles.",
+              "Customer satisfaction remains high enough to support the observed retention rate."
+            ],
+            "limitations": [
+              "This metric does not account for potential customer churn due to competitive pressures.",
+              "It assumes the revenue base is stable enough to support high retention figures."
+            ]
+          },
+          {
+            "statement": "The robust gross margin suggests pricing power and operational efficiency, allowing for reinvestment into growth initiatives.",
+            "evidence_field_ids": [
+              "gross_margin_pct"
+            ],
+            "assumptions": [
+              "The company can maintain its current cost structure as revenue scales.",
+              "Input costs will not rise disproportionately to revenue growth."
+            ],
+            "limitations": [
+              "This margin is historical and may not reflect costs associated with accelerated growth.",
+              "It does not account for potential margin compression from increased competition."
+            ]
+          },
+          {
+            "statement": "The high revenue growth rate points to successful market penetration and increasing demand for the company's solutions.",
+            "evidence_field_ids": [
+              "revenue_growth_pct"
+            ],
+            "assumptions": [
+              "The current growth trajectory can be sustained through the near term.",
+              "Market demand for the company's offerings will continue to expand."
+            ],
+            "limitations": [
+              "Rapid growth can strain operational capacity and lead to unforeseen costs.",
+              "The growth rate might decelerate as the company matures in its addressable market."
+            ]
+          }
+        ],
+        "key_risks_or_catalysts": [
+          "A catalyst could be the successful expansion into new, high-growth vertical markets.",
+          "A key risk is the concentration of revenue with a single large customer.",
+          "The negative annual free cash flow requires careful monitoring against growth expectations."
+        ],
+        "open_questions": [
+          "What is the expected trajectory of the largest customer's spending?",
+          "How will the company manage its negative free cash flow while funding aggressive growth?"
+        ],
+        "disconfirming_tests": [
+          "A significant decline in net revenue retention would signal deteriorating customer relationships.",
+          "A sharp drop in the gross margin percentage would indicate pricing pressure or cost inflation.",
+          "Failure to meet the projected revenue growth in the next reporting period would challenge the growth thesis."
+        ]
+      },
+      "finished_at": "2026-11-07T19:33:49.042425+00:00"
+    },
+    "bear": {
+      "role": "bear",
+      "status": "complete",
+      "started_at": "2026-11-07T19:33:23.351728+00:00",
+      "snapshot_sha256": "dcb9178012e38603e857cce8fadf7b81a952fc778f5b71507a78a5e0f815726c",
+      "prompt_sha256": "fa695bda862bac14b69df340d140a0acd1080184173d0391f5b22c26a4df2fba",
+      "model_requested": "gemma4:e4b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T19:33:23.351728+00:00",
+          "raw_response": "{\"role\":\"bear\",\"thesis\":\"The valuation is overly optimistic given the operational risks, suggesting the current multiple is unsustainable when considering negative free cash flow and customer dependency.\",\"claims\":[{\"statement\":\"The high valuation multiple is unjustified because the company is currently generating negative free cash flow, indicating immediate operational strain.\",\"evidence_field_ids\":[\"annual_fcf_eur_m\"],\"assumptions\":[\"The market values future earnings potential over current cash flow generation.\"],\"limitations\":[\"This analysis does not account for potential future operational improvements that could reverse the negative free cash flow trend.\"]},{\"statement\":\"Significant revenue concentration poses a material risk that could severely depress future revenue and thus the valuation multiple.\",\"evidence_field_ids\":[\"largest_customer_share_pct\",\"customer_revenue_exposure_eur_m\"],\"assumptions\":[\"The largest customer relationship is not immune to competitive pressures or changes in customer strategy.\"],\"limitations\":[\"The magnitude of the customer concentration risk is difficult to quantify without knowing the customer's switching costs.\"]},{\"statement\":\"The negative free cash flow, combined with the high sales multiple, suggests the market is pricing in unsustainable growth that is not yet supported by cash generation.\",\"evidence_field_ids\":[\"annual_fcf_eur_m\",\"ev_sales_multiple\"],\"assumptions\":[\"A sustainable business model requires positive free cash flow to support high valuation multiples.\"],\"limitations\":[\"The current negative free cash flow might be due to one-time, non-recurring investments rather than core operational weakness.\"]}],\"key_risks_or_catalysts\":[\"A material loss of revenue from the largest customer could trigger a significant downward revision of the sales multiple.\",\"The inability to convert revenue growth into positive free cash flow suggests underlying operational inefficiencies that could depress valuation multiples.\",\"Any indication that the market will discount the current high sales multiple due to cyclical downturns or increased competition.\"],\"open_questions\":[\"What is the expected trajectory of free cash flow over the next few reporting periods?\",\"How resilient is the revenue stream from the largest customer to competitive pricing actions?\"],\"disconfirming_tests\":[\"If the company can demonstrate a clear path to positive free cash flow that supports the current sales multiple, the bearish thesis weakens.\",\"If the largest customer relationship is secured by long-term, non-cancellable contracts, the concentration risk is mitigated.\",\"If comparable companies with similar negative free cash flow are trading at higher multiples, the valuation objection may be flawed.\"]}",
+          "model_returned": "gemma4:e4b",
+          "token_usage": {
+            "prompt_eval_count": 1676,
+            "eval_count": 504
+          },
+          "finish_reason": "stop",
+          "elapsed_seconds": 8.793,
+          "finished_at": "2026-11-07T19:33:32.144410+00:00"
+        }
+      ],
+      "output": {
+        "role": "bear",
+        "thesis": "The valuation is overly optimistic given the operational risks, suggesting the current multiple is unsustainable when considering negative free cash flow and customer dependency.",
+        "claims": [
+          {
+            "statement": "The high valuation multiple is unjustified because the company is currently generating negative free cash flow, indicating immediate operational strain.",
+            "evidence_field_ids": [
+              "annual_fcf_eur_m"
+            ],
+            "assumptions": [
+              "The market values future earnings potential over current cash flow generation."
+            ],
+            "limitations": [
+              "This analysis does not account for potential future operational improvements that could reverse the negative free cash flow trend."
+            ]
+          },
+          {
+            "statement": "Significant revenue concentration poses a material risk that could severely depress future revenue and thus the valuation multiple.",
+            "evidence_field_ids": [
+              "largest_customer_share_pct",
+              "customer_revenue_exposure_eur_m"
+            ],
+            "assumptions": [
+              "The largest customer relationship is not immune to competitive pressures or changes in customer strategy."
+            ],
+            "limitations": [
+              "The magnitude of the customer concentration risk is difficult to quantify without knowing the customer's switching costs."
+            ]
+          },
+          {
+            "statement": "The negative free cash flow, combined with the high sales multiple, suggests the market is pricing in unsustainable growth that is not yet supported by cash generation.",
+            "evidence_field_ids": [
+              "annual_fcf_eur_m",
+              "ev_sales_multiple"
+            ],
+            "assumptions": [
+              "A sustainable business model requires positive free cash flow to support high valuation multiples."
+            ],
+            "limitations": [
+              "The current negative free cash flow might be due to one-time, non-recurring investments rather than core operational weakness."
+            ]
+          }
+        ],
+        "key_risks_or_catalysts": [
+          "A material loss of revenue from the largest customer could trigger a significant downward revision of the sales multiple.",
+          "The inability to convert revenue growth into positive free cash flow suggests underlying operational inefficiencies that could depress valuation multiples.",
+          "Any indication that the market will discount the current high sales multiple due to cyclical downturns or increased competition."
+        ],
+        "open_questions": [
+          "What is the expected trajectory of free cash flow over the next few reporting periods?",
+          "How resilient is the revenue stream from the largest customer to competitive pricing actions?"
+        ],
+        "disconfirming_tests": [
+          "If the company can demonstrate a clear path to positive free cash flow that supports the current sales multiple, the bearish thesis weakens.",
+          "If the largest customer relationship is secured by long-term, non-cancellable contracts, the concentration risk is mitigated.",
+          "If comparable companies with similar negative free cash flow are trading at higher multiples, the valuation objection may be flawed."
+        ]
+      },
+      "finished_at": "2026-11-07T19:33:32.144410+00:00"
+    },
+    "risk": {
+      "role": "risk",
+      "status": "complete",
+      "started_at": "2026-11-07T19:33:23.641746+00:00",
+      "snapshot_sha256": "dcb9178012e38603e857cce8fadf7b81a952fc778f5b71507a78a5e0f815726c",
+      "prompt_sha256": "763eaf5a2834b2f91017e4403f1c86d305aaf8cf91bea3d5e5fe56587a1039d4",
+      "model_requested": "gemma4:e4b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T19:33:23.641746+00:00",
+          "raw_response": "{\"role\": \"risk\", \"thesis\": \"The downside risk assessment must focus on the structural vulnerabilities indicated by customer concentration and the negative free cash flow profile, rather than solely on the implied valuation multiple contraction.\", \"claims\": [{\"statement\": \"The company exhibits significant downside risk due to high revenue concentration with a single customer.\", \"evidence_field_ids\": [\"largest_customer_share_pct\"], \"assumptions\": [\"The largest customer represents a non-diversifiable portion of the revenue base.\", \"The customer relationship is not subject to immediate, unforeseen changes.\"], \"limitations\": [\"The evidence only provides the current share percentage and does not detail the contractual nature or duration of the relationship.\"]}, {\"statement\": \"The negative annual free cash flow suggests ongoing operational cash burn that must be covered by existing liquidity.\", \"evidence_field_ids\": [\"annual_fcf_eur_m\", \"cash_eur_m\"], \"assumptions\": [\"The current cash balance is sufficient to cover the negative free cash flow for a defined period.\", \"No significant, unrecorded capital expenditures are required in the near term.\"], \"limitations\": [\"The evidence does not provide a time horizon for the negative free cash flow or the required capital expenditure schedule.\"]}, {\"statement\": \"The implied valuation multiple contraction in the bear case suggests a significant reduction in market confidence in future earnings power.\", \"evidence_field_ids\": [\"scenario_bear.multiple\", \"ev_sales_multiple\"], \"assumptions\": [\"The market's perception of the company's quality is directly correlated with the implied multiple contraction.\", \"The multiple contraction is not due to a temporary, non-recurring market event.\"], \"limitations\": [\"The evidence only presents the resulting multiple and does not explain the underlying drivers of the market's change in sentiment.\"]}], \"key_risks_or_catalysts\": [\"The primary risk is the dependence on a single major customer, which could lead to immediate revenue instability.\", \"The negative free cash flow requires continuous monitoring against the available cash reserves.\", \"A sharp decline in the implied valuation multiple suggests a fundamental reassessment of the business's earning potential.\"], \"open_questions\": [\"What is the contractual termination notice period or minimum commitment required from the largest customer?\", \"What is the expected capital expenditure profile needed to sustain operations given the negative free cash flow?\", \"Are there any alternative revenue streams or product lines that could mitigate the concentration risk?\"], \"disconfirming_tests\": [\"Test the sensitivity of the net cash position to a reduction in the largest customer's spend by a defined amount.\", \"Model the cash burn against the current cash balance using a rolling forecast period.\", \"Analyze the gross margin stability by testing the impact of input cost increases on the gross margin percentage.\"]\n}",
+          "model_returned": "gemma4:e4b",
+          "token_usage": {
+            "prompt_eval_count": 1673,
+            "eval_count": 569
+          },
+          "finish_reason": "stop",
+          "elapsed_seconds": 17.632,
+          "finished_at": "2026-11-07T19:33:41.273907+00:00"
+        }
+      ],
+      "output": {
+        "role": "risk",
+        "thesis": "The downside risk assessment must focus on the structural vulnerabilities indicated by customer concentration and the negative free cash flow profile, rather than solely on the implied valuation multiple contraction.",
+        "claims": [
+          {
+            "statement": "The company exhibits significant downside risk due to high revenue concentration with a single customer.",
+            "evidence_field_ids": [
+              "largest_customer_share_pct"
+            ],
+            "assumptions": [
+              "The largest customer represents a non-diversifiable portion of the revenue base.",
+              "The customer relationship is not subject to immediate, unforeseen changes."
+            ],
+            "limitations": [
+              "The evidence only provides the current share percentage and does not detail the contractual nature or duration of the relationship."
+            ]
+          },
+          {
+            "statement": "The negative annual free cash flow suggests ongoing operational cash burn that must be covered by existing liquidity.",
+            "evidence_field_ids": [
+              "annual_fcf_eur_m",
+              "cash_eur_m"
+            ],
+            "assumptions": [
+              "The current cash balance is sufficient to cover the negative free cash flow for a defined period.",
+              "No significant, unrecorded capital expenditures are required in the near term."
+            ],
+            "limitations": [
+              "The evidence does not provide a time horizon for the negative free cash flow or the required capital expenditure schedule."
+            ]
+          },
+          {
+            "statement": "The implied valuation multiple contraction in the bear case suggests a significant reduction in market confidence in future earnings power.",
+            "evidence_field_ids": [
+              "scenario_bear.multiple",
+              "ev_sales_multiple"
+            ],
+            "assumptions": [
+              "The market's perception of the company's quality is directly correlated with the implied multiple contraction.",
+              "The multiple contraction is not due to a temporary, non-recurring market event."
+            ],
+            "limitations": [
+              "The evidence only presents the resulting multiple and does not explain the underlying drivers of the market's change in sentiment."
+            ]
+          }
+        ],
+        "key_risks_or_catalysts": [
+          "The primary risk is the dependence on a single major customer, which could lead to immediate revenue instability.",
+          "The negative free cash flow requires continuous monitoring against the available cash reserves.",
+          "A sharp decline in the implied valuation multiple suggests a fundamental reassessment of the business's earning potential."
+        ],
+        "open_questions": [
+          "What is the contractual termination notice period or minimum commitment required from the largest customer?",
+          "What is the expected capital expenditure profile needed to sustain operations given the negative free cash flow?",
+          "Are there any alternative revenue streams or product lines that could mitigate the concentration risk?"
+        ],
+        "disconfirming_tests": [
+          "Test the sensitivity of the net cash position to a reduction in the largest customer's spend by a defined amount.",
+          "Model the cash burn against the current cash balance using a rolling forecast period.",
+          "Analyze the gross margin stability by testing the impact of input cost increases on the gross margin percentage."
+        ]
+      },
+      "finished_at": "2026-11-07T19:33:41.273907+00:00"
+    },
+    "chair": {
+      "role": "chair",
+      "status": "complete",
+      "started_at": "2026-11-07T19:33:49.043988+00:00",
+      "snapshot_sha256": "dcb9178012e38603e857cce8fadf7b81a952fc778f5b71507a78a5e0f815726c",
+      "prompt_sha256": "abe33efa0512e644fa3ee28a2b5aadd64ac4614b3255723580b3dc4f641b82be",
+      "model_requested": "gemma4:e4b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at": "2026-11-07T19:33:49.043988+00:00",
+          "raw_response": "{\n  \"verdict\": \"FURTHER_RESEARCH\",\n  \"summary\": \"The specialists present conflicting views regarding the sustainability of the current valuation multiple, particularly concerning the negative free cash flow and high customer concentration. The disagreement centers on whether strong retention and growth metrics outweigh the immediate cash burn and single-customer dependency. Further analysis is required to reconcile these structural risks with the implied premium valuation.\",\n  \"strongest_bull_argument\": \"The robust gross margin and high net revenue retention suggest strong product stickiness and pricing power, which should justify a premium valuation multiple despite current cash flow issues. (Evidence: net_revenue_retention_pct, gross_margin_pct)\",\n  \"strongest_bear_argument\": \"The combination of negative annual free cash flow and significant revenue concentration creates an unsustainable valuation profile, suggesting the current multiple is overly optimistic. (Evidence: annual_fcf_eur_m, largest_customer_share_pct)\",\n  \"material_risks\": [\n    \"The primary risk is the dependence on a single major customer, which could lead to immediate revenue instability. (Evidence: largest_customer_share_pct)\",\n    \"The negative free cash flow requires continuous monitoring against the available cash reserves. (Evidence: annual_fcf_eur_m)\",\n    \"The market's perception of the company's quality is directly correlated with the implied multiple contraction. (Evidence: scenario_bear.multiple)\"\n  ],\n  \"agreements\": [\n    \"All parties acknowledge the existence of significant structural risks related to customer concentration and negative free cash flow. (Evidence: largest_customer_share_pct, annual_fcf_eur_m)\",\n    \"The valuation multiple is a key point of contention among the specialists. (Evidence: ev_sales_multiple, scenario_bear.multiple, scenario_bull.multiple)\"\n  ],\n  \"disagreements\": [\n    {\n      \"topic\": \"Valuation Justification (Cash Flow vs. Growth)\",\n      \"bull_view\": \"High revenue growth and strong retention metrics justify a premium multiple, implying future cash flow will support the current valuation. (Evidence: revenue_growth_pct, net_revenue_retention_pct)\",\n      \"bear_view\": \"Negative free cash flow indicates immediate operational strain, making the current high sales multiple unsustainable regardless of growth potential. (Evidence: annual_fcf_eur_m, ev_sales_multiple)\",\n      \"risk_view\": \"The valuation multiple contraction in the bear case suggests a fundamental reassessment of earning power, linking multiple changes to structural vulnerabilities. (Evidence: scenario_bear.multiple, ev_sales_multiple)\",\n      \"resolution\": \"The disagreement hinges on whether the market discounts current negative cash flow or discounts future growth potential. (Evidence: annual_fcf_eur_m, scenario_bull.multiple)\",\n      \"evidence_field_ids\": [\n        \"annual_fcf_eur_m\",\n        \"ev_sales_multiple\",\n        \"revenue_growth_pct\",\n        \"scenario_bear.multiple\"\n      ]\n    },\n    {\n      \"topic\": \"Impact of Customer Concentration\",\n      \"bull_view\": \"The high net revenue retention suggests the customer base is sticky enough to absorb potential shocks from any single customer. (Evidence: net_revenue_retention_pct)\",\n      \"bear_view\": \"Significant revenue concentration poses a material risk that could severely depress future revenue and thus the valuation multiple. (Evidence: largest_customer_share_pct, customer_revenue_exposure_eur_m)\",\n      \"risk_view\": \"The primary risk is the dependence on a single major customer, which could lead to immediate revenue instability. (Evidence: largest_customer_share_pct)\",\n      \"resolution\": \"The specialists disagree on the resilience of the revenue stream given the large single-customer exposure. (Evidence: largest_customer_share_pct)\",\n      \"evidence_field_ids\": [\n        \"largest_customer_share_pct\",\n        \"customer_revenue_exposure_eur_m\",\n        \"net_revenue_retention_pct\"\n      ]\n    }\n  ],\n  \"decision_conditions\": [\n    \"Confirmation of a clear, funded path to positive free cash flow would significantly weaken the bearish argument. (Evidence: annual_fcf_eur_m)\",\n    \"Evidence of long-term, non-cancellable contracts mitigating the single-customer risk would strengthen the bull case. (Evidence: largest_customer_share_pct)\",\n    \"A comparison of comparable companies with similar negative free cash flow but higher multiples would challenge the bear's valuation objection. (Evidence: scenario_bear.multiple)\"\n  ],\n  \"research_next_steps\": [\n    \"Determine the expected trajectory of free cash flow over the next few reporting periods. (Evidence: annual_fcf_eur_m)\",\n    \"Quantify the contractual termination notice period or minimum commitment required from the largest customer. (Evidence: largest_customer_share_pct)\",\n    \"Model the cash burn against the current cash balance using a rolling forecast period. (Evidence: annual_fcf_eur_m, cash_eur_m)\"\n  ],\n  \"evidence_field_ids\": [\n    \"annual_fcf_eur_m\",\n    \"largest_customer_share_pct\",\n    \"net_revenue_retention_pct\",\n    \"scenario_bear.multiple\"\n  ]\n}",
+          "model_returned": "gemma4:e4b",
+          "token_usage": {
+            "prompt_eval_count": 3409,
+            "eval_count": 1180
+          },
+          "finish_reason": "stop",
+          "elapsed_seconds": 18.526,
+          "finished_at": "2026-11-07T19:34:07.569733+00:00"
+        }
+      ],
+      "chair_input_role_hashes": {
+        "bull": "eccc51d33be419bb17c999fc769c43fb068e67e385a837ac18b28553492571b2",
+        "bear": "fae1db4436dfb872b09faab100bca402de81da2256beaa256e15e207fbbf1731",
+        "risk": "8791591bfc8bc8e097ad7a3fadd6169f9b01ac9f8fc9044735fa6f982146afd9"
+      },
+      "output": {
+        "verdict": "FURTHER_RESEARCH",
+        "summary": "The specialists present conflicting views regarding the sustainability of the current valuation multiple, particularly concerning the negative free cash flow and high customer concentration. The disagreement centers on whether strong retention and growth metrics outweigh the immediate cash burn and single-customer dependency. Further analysis is required to reconcile these structural risks with the implied premium valuation.",
+        "strongest_bull_argument": "The robust gross margin and high net revenue retention suggest strong product stickiness and pricing power, which should justify a premium valuation multiple despite current cash flow issues. (Evidence: net_revenue_retention_pct, gross_margin_pct)",
+        "strongest_bear_argument": "The combination of negative annual free cash flow and significant revenue concentration creates an unsustainable valuation profile, suggesting the current multiple is overly optimistic. (Evidence: annual_fcf_eur_m, largest_customer_share_pct)",
+        "material_risks": [
+          "The primary risk is the dependence on a single major customer, which could lead to immediate revenue instability. (Evidence: largest_customer_share_pct)",
+          "The negative free cash flow requires continuous monitoring against the available cash reserves. (Evidence: annual_fcf_eur_m)",
+          "The market's perception of the company's quality is directly correlated with the implied multiple contraction. (Evidence: scenario_bear.multiple)"
+        ],
+        "agreements": [
+          "All parties acknowledge the existence of significant structural risks related to customer concentration and negative free cash flow. (Evidence: largest_customer_share_pct, annual_fcf_eur_m)",
+          "The valuation multiple is a key point of contention among the specialists. (Evidence: ev_sales_multiple, scenario_bear.multiple, scenario_bull.multiple)"
+        ],
+        "disagreements": [
+          {
+            "topic": "Valuation Justification (Cash Flow vs. Growth)",
+            "bull_view": "High revenue growth and strong retention metrics justify a premium multiple, implying future cash flow will support the current valuation. (Evidence: revenue_growth_pct, net_revenue_retention_pct)",
+            "bear_view": "Negative free cash flow indicates immediate operational strain, making the current high sales multiple unsustainable regardless of growth potential. (Evidence: annual_fcf_eur_m, ev_sales_multiple)",
+            "risk_view": "The valuation multiple contraction in the bear case suggests a fundamental reassessment of earning power, linking multiple changes to structural vulnerabilities. (Evidence: scenario_bear.multiple, ev_sales_multiple)",
+            "resolution": "The disagreement hinges on whether the market discounts current negative cash flow or discounts future growth potential. (Evidence: annual_fcf_eur_m, scenario_bull.multiple)",
+            "evidence_field_ids": [
+              "annual_fcf_eur_m",
+              "ev_sales_multiple",
+              "revenue_growth_pct",
+              "scenario_bear.multiple"
+            ]
+          },
+          {
+            "topic": "Impact of Customer Concentration",
+            "bull_view": "The high net revenue retention suggests the customer base is sticky enough to absorb potential shocks from any single customer. (Evidence: net_revenue_retention_pct)",
+            "bear_view": "Significant revenue concentration poses a material risk that could severely depress future revenue and thus the valuation multiple. (Evidence: largest_customer_share_pct, customer_revenue_exposure_eur_m)",
+            "risk_view": "The primary risk is the dependence on a single major customer, which could lead to immediate revenue instability. (Evidence: largest_customer_share_pct)",
+            "resolution": "The specialists disagree on the resilience of the revenue stream given the large single-customer exposure. (Evidence: largest_customer_share_pct)",
+            "evidence_field_ids": [
+              "largest_customer_share_pct",
+              "customer_revenue_exposure_eur_m",
+              "net_revenue_retention_pct"
+            ]
+          }
+        ],
+        "decision_conditions": [
+          "Confirmation of a clear, funded path to positive free cash flow would significantly weaken the bearish argument. (Evidence: annual_fcf_eur_m)",
+          "Evidence of long-term, non-cancellable contracts mitigating the single-customer risk would strengthen the bull case. (Evidence: largest_customer_share_pct)",
+          "A comparison of comparable companies with similar negative free cash flow but higher multiples would challenge the bear's valuation objection. (Evidence: scenario_bear.multiple)"
+        ],
+        "research_next_steps": [
+          "Determine the expected trajectory of free cash flow over the next few reporting periods. (Evidence: annual_fcf_eur_m)",
+          "Quantify the contractual termination notice period or minimum commitment required from the largest customer. (Evidence: largest_customer_share_pct)",
+          "Model the cash burn against the current cash balance using a rolling forecast period. (Evidence: annual_fcf_eur_m, cash_eur_m)"
+        ],
+        "evidence_field_ids": [
+          "annual_fcf_eur_m",
+          "largest_customer_share_pct",
+          "net_revenue_retention_pct",
+          "scenario_bear.multiple"
+        ]
+      },
+      "finished_at": "2026-11-07T19:34:07.569733+00:00"
+    }
+  },
+  "status": "complete",
+  "finished_at": "2026-11-07T19:34:07.570243+00:00"
+}

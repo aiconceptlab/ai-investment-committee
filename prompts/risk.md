@@ -1,0 +1,1 @@
+Assess downside and missing evidence. Support three distinct claims about the bear sensitivity, concentration, and cash flow or liquidity. Explain why a revenue exposure is not an equity loss estimate. Do not infer cash runway or assign scenario probabilities. Recommend concrete tests.

@@ -1,0 +1,1 @@
+Construct the strongest defensible downside thesis. Support three distinct concerns using the illustrative sales multiple, negative free cash flow and largest-customer concentration. Distinguish a valuation objection from an operating failure mode. State what would weaken your objections. Do not invent adverse facts.

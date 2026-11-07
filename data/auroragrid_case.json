@@ -1,0 +1,30 @@
+{
+  "case_id": "auroragrid-2026-synthetic-v1",
+  "company_name": "AuroraGrid AI",
+  "synthetic": true,
+  "currency": "EUR",
+  "unit": "millions",
+  "revenue_eur_m": 120,
+  "revenue_growth_pct": 35,
+  "gross_margin_pct": 72,
+  "net_revenue_retention_pct": 118,
+  "annual_fcf_eur_m": -12,
+  "ev_sales_multiple": 7.5,
+  "cash_eur_m": 80,
+  "debt_eur_m": 25,
+  "largest_customer_share_pct": 31,
+  "scenario_assumptions": {
+    "bear": {
+      "revenue_eur_m": 96,
+      "multiple": 4
+    },
+    "base": {
+      "revenue_eur_m": 150,
+      "multiple": 6
+    },
+    "bull": {
+      "revenue_eur_m": 162,
+      "multiple": 7.5
+    }
+  }
+}
