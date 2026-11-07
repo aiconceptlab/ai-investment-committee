@@ -1,4 +1,4 @@
-# LAB // 001 — AI Investment Committee
+# AI Investment Committee
 
 **Four model roles. One fictional company. A verdict you can audit.**
 
@@ -11,8 +11,8 @@ A Streamlit research demo. Bull, Bear and Risk independently evaluate the same i
 Requires Python **3.12**. From a fresh clone:
 
 ~~~sh
-git clone https://github.com/aiconceptlab/lab-001-ai-investment-committee.git
-cd lab-001-ai-investment-committee
+git clone https://github.com/aiconceptlab/ai-investment-committee.git
+cd ai-investment-committee
 python -m venv .venv
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 # macOS / Linux: source .venv/bin/activate

@@ -1,4 +1,4 @@
-name: Check LAB 001
+name: Check AI Investment Committee
 on: [push, pull_request]
 permissions:
   contents: read

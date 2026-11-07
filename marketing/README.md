@@ -3,12 +3,12 @@
 Upload **01-cover.png** through **08-code.png** in order at **4:5 portrait**. All slides are **1080×1350**. The header/footer sit inside safe margins. **caption.txt** is ready to copy. The last slide asks **Comment “CODE” to get the link.**
 
 - 01: AI-generated concept artwork, visibly labelled.
-- 04: actual Streamlit progress from a successful live browser run.
+- 04: actual Streamlit replay of the completed live trial, captured without invoking the model again.
 - 05: verbatim excerpts from the saved live trial, with ellipses where shortened.
 - 06: exact Decimal scenario outputs from the audit.
 - 07: actual Chair verdict and disagreement topics, with a concise research checklist.
 
-Source: https://github.com/aiconceptlab/lab-001-ai-investment-committee
+Source: https://github.com/aiconceptlab/ai-investment-committee
 
 Rebuild slides with **python marketing/render.py** after installing project requirements. The renderer uses Arial or DejaVu Sans and the provided artwork/screenshots. It does not invoke a model.
 

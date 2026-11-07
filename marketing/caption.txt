@@ -1,6 +1,6 @@
 I built an AI investment committee. The Bull made the growth case. The Bear challenged the valuation.
 
-LAB // 001: Bull, Bear and Risk each analyzed the same fictional company independently. Then a Chair read their actual responses, surfaced two disagreements and returned “Further Research.”
+Bull, Bear and Risk each analyzed the same fictional company independently. Then a Chair read their actual responses, surfaced two disagreements and returned “Further Research.”
 
 The model didn't calculate the valuation. Python did: €439M, €955M and €1,270M across three hypothetical scenarios. Every numerical value shown comes from the synthetic inputs or a reproducible calculation.
 

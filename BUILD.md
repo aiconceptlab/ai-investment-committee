@@ -19,7 +19,7 @@ Qualitative “Needs evidence” cues are narrow heuristics, not semantic fact-c
 - Four actual model calls, all accepted on their first attempt in this run.
 - Three specialist submissions and the Chair validated; **Further Research** was the actual educational verdict.
 - Chair recorded disagreements about valuation versus cash flow/growth and about customer concentration.
-- A separate live run through the Streamlit **Convene Committee** button also completed. Slide 04 shows the real progress of that browser run; slides 05–07 use the primary recorded CLI run. No timings, reach, confidence or performance claims are fabricated.
+- A separate live run through the Streamlit **Convene Committee** button also completed. Slide 04 shows the app replaying the recorded CLI trial; slides 05–07 use that trial's output and calculations. No timings, reach, confidence or performance claims are fabricated.
 
 An earlier live run was incomplete because a cash-flow rule incorrectly matched hypothetical questions about positive FCF. The rule was narrowed to factual present-state contradictions, and regression tests cover both cases. The failed run was retained locally but is not represented as a successful trial.
 

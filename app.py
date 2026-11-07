@@ -15,7 +15,7 @@ from src.report import markdown, save
 from src.review import review_flags
 from src.valuation import ROOT, calculate, evidence_ledger, load_case
 
-st.set_page_config(page_title="AI Investment Committee | LAB 001", page_icon="◈", layout="wide")
+st.set_page_config(page_title="AI Investment Committee | AI Concept Lab", page_icon="◈", layout="wide")
 st.html("""
 <style>
 .block-container {max-width:1330px;padding-top:2.2rem;padding-bottom:4rem}
@@ -27,7 +27,7 @@ div[data-testid="stMetric"]{background:#19212a;border:1px solid #353a40;border-r
 .lab-synthetic{display:inline-block;background:#393225;color:#f1ce84;border:1px solid #6c5831;border-radius:6px;padding:5px 9px;margin-top:15px;font-size:11px;letter-spacing:.08em;font-weight:750}
 [data-testid="stHorizontalBlock"]{gap:.85rem}
 </style>
-<div class="lab-hero"><div class="lab-tag">AI CONCEPT LAB &nbsp; // &nbsp; LAB 001</div>
+<div class="lab-hero"><div class="lab-tag">AI CONCEPT LAB &nbsp; // &nbsp; RESEARCH</div>
 <h1>AI Investment Committee</h1><p>Four model roles. One fictional company. A verdict with evidence you can inspect.</p>
 <div class="lab-synthetic">SYNTHETIC DATA · EDUCATIONAL RESEARCH</div></div>
 """)
@@ -242,5 +242,5 @@ with tab_audit:
                               "committee-audit.json", "application/json")
     else:
         st.caption("Load an illustration or run the committee to export an audit.")
-st.caption("AI Concept Lab // LAB 001 · Fictional case, educational research only · No trading, live prices or personal recommendations.")
+st.caption("AI Concept Lab · Fictional case, educational research only · No trading, live prices or personal recommendations.")
 
